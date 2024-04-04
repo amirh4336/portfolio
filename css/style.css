@@ -234,6 +234,8 @@ span {
 
 .portfolio {
   background: var(--second-bg-color);
+  width: 100%;
+  padding-bottom: 100px;
 }
 
 .portfolio h2 {
@@ -253,6 +255,7 @@ span {
   box-shadow: 0 0 1rem var(--bg-color);
   overflow: hidden;
   display: flex;
+  height: 240px;
 }
 
 .portfolio-box img {
@@ -447,7 +450,7 @@ span {
   .skill .technical-bars {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .navbar {
     position: absolute;
     top: 100%;
