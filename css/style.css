@@ -248,6 +248,10 @@ span {
   align-items: center;
   gap: 2.5rem;
 }
+.home-img img {
+  border-radius: 50%;
+  box-shadow: 0 0 3rem var(--main-color);
+}
 
 .portfolio-container .portfolio-box {
   position: relative;
